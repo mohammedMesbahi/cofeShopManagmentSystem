@@ -240,6 +240,7 @@ public class FXMLDocumentController implements Initializable {
                     su_username.setText("");
                     su_password.setText("");
                     su_question.getSelectionModel().clearSelection();
+                    su_question.setPromptText("Select Question");
                     su_answer.setText("");
                     
                     TranslateTransition slider = new TranslateTransition();

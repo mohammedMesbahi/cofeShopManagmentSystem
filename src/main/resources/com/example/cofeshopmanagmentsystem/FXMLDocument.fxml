@@ -56,7 +56,7 @@
                   <TextField fx:id="fp_answer" layoutX="40.0" layoutY="203.0" prefHeight="30.0" prefWidth="220.0" promptText="Answer" styleClass="textfield" stylesheets="@loginDesign.css" />
                   <Button fx:id="fp_back" layoutX="116.0" layoutY="355.0" mnemonicParsing="false" onAction="#backToLoginForm" prefHeight="30.0" prefWidth="68.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Back">
                      <graphic>
-<!--                        <FontAwesomeIcon fill="WHITE" glyphName="ANGLE_LEFT" size="1.5em" />-->
+                        <FontAwesomeIcon fill="WHITE" glyphName="ANGLE_LEFT" size="1.5em" />
                      </graphic>
                   </Button>
                </children>
@@ -73,7 +73,7 @@
                   <Button fx:id="np_changePassBtn" layoutX="40.0" layoutY="228.0" mnemonicParsing="false" onAction="#changePassBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Change Password" />
                   <Button fx:id="np_back" layoutX="116.0" layoutY="355.0" mnemonicParsing="false" onAction="#backToQuestionForm" prefHeight="30.0" prefWidth="68.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Back">
                      <graphic>
-<!--                        <FontAwesomeIcon fill="WHITE" glyphName="ANGLE_LEFT" size="1.5em" />-->
+                        <FontAwesomeIcon fill="WHITE" glyphName="ANGLE_LEFT" size="1.5em" />
                      </graphic>
                   </Button>
                </children>
@@ -87,7 +87,7 @@
                   </Label>
                   <Button fx:id="side_CreateBtn" layoutX="43.0" layoutY="346.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="220.0" styleClass="create-btn" stylesheets="@loginDesign.css" text="Create new Account" AnchorPane.bottomAnchor="14.0" />
                   <Button fx:id="side_alreadyHave" layoutX="43.0" layoutY="353.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="40.0" prefWidth="220.0" styleClass="create-btn" stylesheets="@loginDesign.css" text="Already have an Account" visible="false" />
-<!--                  <FontAwesomeIcon fill="WHITE" glyphName="COFFEE" layoutX="89.0" layoutY="182.0" size="10em" />-->
+                  <FontAwesomeIcon fill="WHITE" glyphName="COFFEE" layoutX="89.0" layoutY="182.0" size="10em" />
                   <Label layoutX="47.0" layoutY="200.0" text="Cafe Shop Management System" textFill="WHITE">
                      <font>
                         <Font size="15.0" />

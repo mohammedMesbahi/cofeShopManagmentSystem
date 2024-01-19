@@ -7,6 +7,7 @@ module com.example.cofeshopmanagmentsystem {
     requires org.kordamp.ikonli.javafx;
     requires java.sql;
     requires jasperreports;
+    requires mysql.connector.java;
 
     opens com.example.cofeshopmanagmentsystem to javafx.fxml;
     exports com.example.cofeshopmanagmentsystem;

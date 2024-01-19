@@ -20,7 +20,7 @@ public class database {
 
             Class.forName("com.mysql.jdbc.Driver");
 
-            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/cafe", "root", ""); // LINK YOUR DATABASE
+            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/cafe?useSSL=false", "userx", "userx23534***#"); // LINK YOUR DATABASE
             return connect;
         } catch (Exception e) {
             e.printStackTrace();
