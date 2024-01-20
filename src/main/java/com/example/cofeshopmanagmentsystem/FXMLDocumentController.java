@@ -152,7 +152,7 @@ public class FXMLDocumentController implements Initializable {
                     alert.setContentText("Successfully Login!");
                     alert.showAndWait();
                     
-                    // LINK YOUR MAIN FORM
+                    // MAIN FORM
                     Parent root = FXMLLoader.load(getClass().getResource("mainForm.fxml"));
                     
                     Stage stage = new Stage();
