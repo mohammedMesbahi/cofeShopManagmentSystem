@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574d5e47-6a54-4dd0-9553-47ecc1e071c9" name="Changes" comment="add icons and jdbc">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/modals/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/modals/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/scripts/sqlScript.sql" afterDir="false" />
+    <list default="true" id="574d5e47-6a54-4dd0-9553-47ecc1e071c9" name="Changes" comment="add script for creating a database plus tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/FXMLDocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/FXMLDocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/mainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/mainFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/productData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/productData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/cardProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/CardProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/mainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/MainFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/scripts/sqlScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/scripts/sqlScript.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/cardProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/cardProduct.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/mainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/mainForm.fxml" afterDir="false" />
     </list>
@@ -63,10 +58,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Dell/Documents/NetBeansProjects/cofeShopManagmentSystem/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3816092",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "two.files.diff.last.used.file": "C:/Users/Dell/Documents/NetBeansProjects/cofeShopManagmentSystem/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml"
   }
 }]]></component>
@@ -134,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705684742906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add script for creating a database plus tables">
+      <created>1705775712661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705775712661</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add icons and jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add icons and jdbc" />
+    <MESSAGE value="add script for creating a database plus tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="add script for creating a database plus tables" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

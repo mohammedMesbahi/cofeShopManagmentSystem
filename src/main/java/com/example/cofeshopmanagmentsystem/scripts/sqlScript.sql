@@ -2,6 +2,7 @@ CREATE TABLE `cafe`.`product` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `prod_id` VARCHAR(100) NULL,
   `prod_name` VARCHAR(100) NULL,
+  type varchar(100) null,
   `stock` INT NULL,
   `price` DOUBLE NULL,
   `status` VARCHAR(100) NULL,
@@ -10,7 +11,7 @@ CREATE TABLE `cafe`.`product` (
   PRIMARY KEY (`id`));
 
 --  table for employee
-  create table cafe.user(
+  create table cafe.employee(
   id int not null auto_increment,
     username varchar(100) null,
     password varchar(100) null,

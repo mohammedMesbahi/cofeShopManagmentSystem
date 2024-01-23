@@ -27,7 +27,7 @@ import javafx.scene.layout.AnchorPane;
  *
  * @author WINDOWS 10
  */
-public class cardProductController implements Initializable {
+public class CardProductController implements Initializable {
 
     @FXML
     private AnchorPane card_form;
@@ -90,7 +90,7 @@ public class cardProductController implements Initializable {
 
     public void addBtn() {
 
-        mainFormController mForm = new mainFormController();
+        MainFormController mForm = new MainFormController();
         mForm.customerID();
 
         qty = prod_spinner.getValue();
@@ -198,6 +198,9 @@ public class cardProductController implements Initializable {
                     alert.showAndWait();
                     
                     mForm.menuGetTotal();
+//                    mForm.menuDisplayCard();
+//                    mForm.menuDisplayTotal();
+                    mForm.menuShowOrderData();
                 }
             }
         } catch (Exception e) {
