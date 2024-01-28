@@ -18,7 +18,7 @@ public class database {
 
         try {
 
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/cafe?useSSL=false", "userx", "userx23534***#"); // LINK YOUR DATABASE
             return connect;

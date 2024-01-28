@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cofeShopManagmentSystem:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574d5e47-6a54-4dd0-9553-47ecc1e071c9" name="Changes" comment="add script for creating a database plus tables">
+    <list default="true" id="574d5e47-6a54-4dd0-9553-47ecc1e071c9" name="Changes" comment="DONE">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cofeShopManagmentSystem_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/cardProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/CardProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/mainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/MainFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/scripts/sqlScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/scripts/sqlScript.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/cardProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/cardProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/mainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/mainForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/CardProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/CardProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cofeshopmanagmentsystem/database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -57,10 +71,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Dell/Documents/NetBeansProjects/cofeShopManagmentSystem/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Program Files/Java/javafx-sdk-21.0.2/lib/javafx.web.jar",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3816092",
+    "project.structure.side.proportion": "0.30804598",
     "settings.editor.selected.configurable": "preferences.JavaFX",
     "two.files.diff.last.used.file": "C:/Users/Dell/Documents/NetBeansProjects/cofeShopManagmentSystem/src/main/resources/com/example/cofeshopmanagmentsystem/FXMLDocument.fxml"
   }
@@ -79,11 +93,15 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
-      <command value="mvn install" />
       <command value="mvn clean install" />
+      <command value="mvn clean compile assembly:single  " />
+      <command value="mvn clean javafx:run" />
+      <command value="mvn clean javafx:jlink" />
+      <command value="mvn clean package" />
+      <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.cofeshopmanagmentsystem.CafeShopManagementSystem" />
       <module name="cofeShopManagmentSystem" />
@@ -91,6 +109,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cofeShopManagmentSystem-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/cofeShopManagmentSystem-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cofeShopManagmentSystem-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/cofeShopManagmentSystem-1.0-SNAPSHOT.jar" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cofeShopManagmentSystem.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/cofeShopManagmentSystem_jar/cofeShopManagmentSystem.jar" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="original-cofeShopManagmentSystem-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/original-cofeShopManagmentSystem-1.0-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JAR Application.original-cofeShopManagmentSystem-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.cofeShopManagmentSystem-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.cofeShopManagmentSystem-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.cofeShopManagmentSystem.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.cofeShopManagmentSystem.jar" />
+        <item itemvalue="JAR Application.cofeShopManagmentSystem-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.original-cofeShopManagmentSystem-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.cofeShopManagmentSystem-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705775712661</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="moddified the script for creating the database">
+      <created>1706013096429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706013096429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +217,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add icons and jdbc" />
     <MESSAGE value="add script for creating a database plus tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="add script for creating a database plus tables" />
+    <MESSAGE value="moddified the script for creating the database" />
+    <MESSAGE value="DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

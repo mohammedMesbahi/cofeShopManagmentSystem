@@ -200,7 +200,7 @@ public class CardProductController implements Initializable {
                     mForm.menuGetTotal();
 //                    mForm.menuDisplayCard();
 //                    mForm.menuDisplayTotal();
-                    mForm.menuShowOrderData();
+                    //mForm.menuShowOrderData();
                 }
             }
         } catch (Exception e) {

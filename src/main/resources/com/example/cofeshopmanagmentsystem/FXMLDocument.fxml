@@ -16,8 +16,8 @@
                         <Font size="20.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="si_username" layoutX="40.0" layoutY="152.0" onAction="#loginBtn" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@loginDesign.css" text="mesbahi" />
-                  <PasswordField fx:id="si_password" layoutX="40.0" layoutY="192.0" onAction="#loginBtn" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@loginDesign.css" text="87654321" />
+                  <TextField fx:id="si_username" layoutX="40.0" layoutY="152.0" onAction="#loginBtn" prefHeight="30.0" prefWidth="220.0" promptText="Username" styleClass="textfield" stylesheets="@loginDesign.css" />
+                  <PasswordField fx:id="si_password" layoutX="40.0" layoutY="192.0" onAction="#loginBtn" prefHeight="30.0" prefWidth="220.0" promptText="Password" styleClass="textfield" stylesheets="@loginDesign.css" />
                   <Button fx:id="si_loginBtn" layoutX="40.0" layoutY="259.0" mnemonicParsing="false" onAction="#loginBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Login" />
                   <Hyperlink fx:id="si_forgotPass" layoutX="40.0" layoutY="229.0" onAction="#switchForgotPass" text="Forgot Password?" />
                </children>
