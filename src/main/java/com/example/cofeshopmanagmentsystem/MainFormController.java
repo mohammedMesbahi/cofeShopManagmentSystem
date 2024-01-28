@@ -746,7 +746,7 @@ public class MainFormController implements Initializable {
                 AnchorPane pane = load.load();
                 CardProductController cardC = load.getController();
                 cardC.setData(cardListData.get(q));
-
+                cardC.setmForm(this);
                 if (column == 3) {
                     column = 0;
                     row += 1;
@@ -854,19 +854,16 @@ public class MainFormController implements Initializable {
 
     public void menuAmount() {
         menuGetTotal();
-        if (menu_amount.getText().isEmpty() || totalP == 0) {
-            alert = new Alert(AlertType.ERROR);
-            alert.setTitle("Error Message");
-            alert.setHeaderText(null);
-            alert.setContentText("Invalid :3");
-            alert.showAndWait();
-        } else {
-            amount = Double.parseDouble(menu_amount.getText());
-            if (amount < totalP) {
-                menu_amount.setText("");
-            } else {
+        if (totalP > 0) {
+            if(!menu_amount.getText().isEmpty()){
+                amount = Double.parseDouble(menu_amount.getText());
+            }
+            if (amount > totalP) {
                 change = (amount - totalP);
                 menu_change.setText("$" + change);
+            }else{
+                change =0;
+                menu_change.setText("$0.0" );
             }
         }
     }
@@ -923,6 +920,7 @@ public class MainFormController implements Initializable {
                         alert.showAndWait();
 
                         menuShowOrderData();
+                        menuRestart();
 
                     } else {
                         alert = new Alert(AlertType.WARNING);
@@ -962,7 +960,7 @@ public class MainFormController implements Initializable {
                     prepare = connect.prepareStatement(deleteData);
                     prepare.executeUpdate();
                 }
-
+                menuDisplayTotal();
                 menuShowOrderData();
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1197,6 +1195,9 @@ public class MainFormController implements Initializable {
 
         customersShowData();
 
+        menu_amount.textProperty().addListener((observable, oldValue, newValue) -> {
+            menuAmount();
+        });
     }
 
 }

@@ -57,6 +57,10 @@ public class CardProductController implements Initializable {
 
     private SpinnerValueFactory<Integer> spin;
 
+    public MainFormController mForm;
+    public void setmForm(MainFormController mf){
+        this.mForm=mf;
+    }
     private Connection connect;
     private PreparedStatement prepare;
     private ResultSet result;
@@ -90,7 +94,7 @@ public class CardProductController implements Initializable {
 
     public void addBtn() {
 
-        MainFormController mForm = new MainFormController();
+//        MainFormController mForm = new MainFormController();
         mForm.customerID();
 
         qty = prod_spinner.getValue();
@@ -201,6 +205,8 @@ public class CardProductController implements Initializable {
 //                    mForm.menuDisplayCard();
 //                    mForm.menuDisplayTotal();
                     //mForm.menuShowOrderData();
+                    mForm.menuDisplayTotal();
+                    mForm.menuShowOrderData();
                 }
             }
         } catch (Exception e) {
